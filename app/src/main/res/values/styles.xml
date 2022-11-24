@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- TextInputLayout -->
+    <style name="Widget.Playground.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.Dense">
+        <item name="singleLine">true</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxBackgroundColor">@color/gray_extra_light</item>
+    </style>
+
+    <!-- Button -->
+    <style name="Widget.Playground.Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">8dp</item>
+        <item name="android:insetTop">2dp</item>
+        <item name="android:insetBottom">2dp</item>
+        <item name="backgroundTint">@color/color_button_bg</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/color_button_label</item>
+    </style>
+
+    <style name="Widget.Playground.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="cornerRadius">8dp</item>
+        <item name="android:insetTop">2dp</item>
+        <item name="android:insetBottom">2dp</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/accent_main</item>
+        <item name="strokeColor">@color/accent_main</item>
+    </style>
+
+    <!-- Loading Dialog -->
+    <style name="Widget.Playground.Dialog.Loading" parent="Widget.AppCompat.ProgressBar">
+        <item name="background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+</resources>

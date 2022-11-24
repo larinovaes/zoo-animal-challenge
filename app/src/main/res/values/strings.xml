@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">playground-animals</string>
+
+    <!-- Home -->
+    <string name="start_animals">Start Animals</string>
+
+    <!-- Animals Flow -->
+    <string name="title_animals">Animals</string>
+
+    <!-- Animal Details -->
+    <string name="animal_details_diet">Diet: %s</string>
+    <string name="animal_details_lifespan">Lifespan: %s</string>
+
+    <!-- Error Item -->
+    <string name="error_title">Something went wrong</string>
+    <string name="error_message">There was a problen with the request. Please try again in a few moments.</string>
+    <string name="error_action">Try again</string>
+</resources>
